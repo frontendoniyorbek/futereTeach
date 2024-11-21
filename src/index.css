@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-container {
+	@apply max-w-[1646px] w-full mx-auto px-5;
+}
+
+.custom-li:not(:last-child) {
+	@apply mr-5;
+}
+
+.custom-flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.custom-flex2 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
