@@ -1,12 +1,12 @@
 import './App.css';
 import FutureTech from './components/ FutureTech';
-// import ResponsiveTailwid from './components/ResponsiveTailwid';
+import RealReaders from './components/RealReaders';
 
 function App() {
 	return (
 		<>
+			<RealReaders />
 			<FutureTech />
-			{/* <ResponsiveTailwid /> */}
 		</>
 	);
 }
